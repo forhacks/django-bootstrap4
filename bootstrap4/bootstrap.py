@@ -9,9 +9,12 @@ from django.conf import settings
 
 BOOTSTRAP4_DEFAULTS = {
     'base_url': None,  # '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/'
+    'font_url': {
+        'href': 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+    },
     'css_url': {
-        'href': 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css',
-        'integrity': 'sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb',
+        'href': 'https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-material-design.min.css',
+        'integrity': 'sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL',
         'crossorigin': 'anonymous',
     },
     'theme_url': None,
@@ -21,14 +24,14 @@ BOOTSTRAP4_DEFAULTS = {
         'crossorigin': 'anonymous',
     },
     'popper_url': {
-        'url': 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js',
-        'integrity': 'sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh',
+        'url': 'https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js',
+        'integrity': 'sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw',
         'crossorigin': 'anonymous',
 
     },
     'javascript_url': {
-        'url': 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js',
-        'integrity': 'sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ',
+        'url': 'https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/js/bootstrap-material-design.js',
+        'integrity': 'sha384-hC7RwS0Uz+TOt6rNG8GX0xYCJ2EydZt1HeElNwQqW+3udRol4XwyBfISrNDgQcGA',
         'crossorigin': 'anonymous',
     },
     'javascript_in_head': False,
